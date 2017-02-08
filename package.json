@@ -1,0 +1,28 @@
+{
+  "name": "slc-dayone-tdd",
+  "version": "1.0.0",
+  "description": "A github repository containing exercises demonstrating Test Driven Development in JavaScript ",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "aritGeo": "jasmine tests/aritGeo.js",
+    "fizzBuzz": "jasmine tests/fizzBuzz.js",
+    "findMinMax": "jasmine tests/findMinMax.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajudensi/SLC-Day-0-TDD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajudensi/SLC-Day-0-TDD/issues"
+  },
+  "homepage": "https://github.com/ajudensi/SLC-Day-0-TDD#readme"
+}
