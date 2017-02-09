@@ -1,4 +1,4 @@
-//'use strict';
+'use strict';
 const jasmine = require('jasmine').expect;
 
 const lib = require('../findMinMax/library.js');
