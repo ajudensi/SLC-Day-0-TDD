@@ -32,7 +32,7 @@ module.exports = {
         return isGeometric;
     },
 
-    aritGeo: function (arr) {
+    aritGeo: function (arr ) {
         if (arguments.length > 1) throw new Error('Only one argument array is required');
         
         if (arr.constructor === Array && (arr.length < 1)) {
