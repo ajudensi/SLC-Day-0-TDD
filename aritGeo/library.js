@@ -33,11 +33,10 @@ module.exports = {
     },
 
     aritGeo: function (arr) {
-        if (arr.constructor === Array && !(arr[0])) {
+        if (arguments.length > 1) throw new Error('Only one argument array is required');
+        
+        if (arr.constructor === Array && (arr.length < 1)) {
             return 0;
-        }
-        if (arguments.length > 1) {
-            return -1
         }
 
         if (this.isArithmeticProgression(arr)) {
